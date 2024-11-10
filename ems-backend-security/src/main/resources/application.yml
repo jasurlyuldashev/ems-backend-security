@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ems-backend-security
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ems_security
+    username: postgres
+    password: root123
+  jpa:
+    hibernate:
+      ddl-auto: update
